@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", serif;
+}
+
+main {
+    width: 720px;
+    margin: 20px auto;
+    border: 1px solid black;
+    display: block;
+}
+
+.foto {
+    width: 320px;
+    height: 320px;
+    display: block;
+}
+
+.foto img {
+    width: 320px;
+    height: 320px;
+    display: block;
+    object-fit: cover;
+}
+
+.contato {
+    width: 290px;
+    height: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.contato a {
+    font-size: 18px;
+}
+
+.informacoes {
+    width: 100%;
+    display: block;
+}
+
+.informacoes p {
+    margin: 0;
+    height: 35px;
+    padding: 7px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #aaa;
+    font-size: 18px;
+}
+
+.primeiro-paragrafo {
+    margin-bottom: 40px !important;
+    height: auto !important;
+}
+
+.segundo-texto {
+    width: 100%;
+    display: block;
+}
+
+.segundo-texto p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.caixas {
+    display: flex;
+    align-items: flex-start;
+}
+
+.caixas p {
+    width: 125px;
+    height: 155px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+footer {
+    margin: 10px 20px 30px 40px;
+    display: block;
+}
